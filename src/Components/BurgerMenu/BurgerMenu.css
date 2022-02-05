@@ -6,6 +6,7 @@
   border: none;
   outline: none;
   transition: .3s;
+  cursor: pointer;
 }
 
 .burger:active {
@@ -15,7 +16,7 @@
 
 @media(any-hover: hover) {
   .burger:hover {
-    transform: scale(1.1);
+    transform: scale(1.3);
     opacity: .8;
   }
 }
