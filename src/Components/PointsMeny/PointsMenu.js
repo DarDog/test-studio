@@ -1,9 +1,9 @@
 import React from 'react';
 import './PointsMenu.css';
 
-const PointsMenu = ({ onClicl }) => {
+const PointsMenu = ({ onClick }) => {
   return (
-    <button className='points__menu'/>
+    <button className='points-menu' onClick={onClick}/>
   );
 };
 
