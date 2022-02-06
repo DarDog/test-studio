@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/test-studio-E.L./static/css/main.5218d78c.css",
+    "main.js": "/test-studio-E.L./static/js/main.2e8b33c6.js",
+    "static/media/MyFace.png": "/test-studio-E.L./static/media/MyFace.e8f428eddaac1d27875f.png",
+    "static/media/Logo.svg": "/test-studio-E.L./static/media/Logo.3b71c2552dcc9e60569e4dc080751cd4.svg",
+    "index.html": "/test-studio-E.L./index.html",
+    "main.5218d78c.css.map": "/test-studio-E.L./static/css/main.5218d78c.css.map",
+    "main.2e8b33c6.js.map": "/test-studio-E.L./static/js/main.2e8b33c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5218d78c.css",
+    "static/js/main.2e8b33c6.js"
+  ]
+}
