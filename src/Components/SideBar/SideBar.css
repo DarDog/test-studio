@@ -6,6 +6,8 @@
   height: 100vh;
   transition: .3s;
   overflow: hidden;
+  position: sticky;
+  top: 0;
 }
 
 .nav_short {
@@ -14,11 +16,13 @@
 
 .nav__header {
   padding: 28px 38px;
+  min-height: 84px;
   display: flex;
   align-items: center;
   gap: 16px;
   background-color: #F9FAFB;
   transition: .3s;
+  box-sizing: border-box;
 }
 
 .nav__menu {
@@ -342,5 +346,19 @@
   .nav__add-button:hover {
     transform: scale(1.05);
     opacity: .9;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    z-index: 100;
+  }
+
+  .nav_short {
+    position: sticky;
   }
 }
