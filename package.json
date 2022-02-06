@@ -2,7 +2,7 @@
   "name": "test-studio-e-l",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dardog.github.io/test-studio-E.L./",
+  "homepage": "https://dardog.github.io/test-studio-EL/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
