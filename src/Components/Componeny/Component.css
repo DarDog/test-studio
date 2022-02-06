@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
 
 .example-page__content {
@@ -44,10 +43,6 @@
 @media screen and (max-width: 650px){
   .example-page__content-list {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-
-  .example-page {
-    width: calc(100% - 98px);
   }
 
   .example-page__content-item {
